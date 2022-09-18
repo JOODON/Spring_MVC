@@ -33,4 +33,5 @@ public class WebMvcContextConfiguration extends WebMvcConfigurerAdapter {
         resolver.setSuffix(".jsp");
         return resolver;
     }
+    //컨트롤러에서 넘어온 파일을 가지고 실행!
 }

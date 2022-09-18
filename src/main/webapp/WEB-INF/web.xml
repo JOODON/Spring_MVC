@@ -15,7 +15,8 @@
     </init-param>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>kr.or.connect.mvcexam.config.WebMvcContextConfiguration</param-value>
+      <param-value>config.WebMvcContextConfiguration</param-value>
+        <!-- 이부분에서 경로를 설정해주어야됨!-->
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
