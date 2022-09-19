@@ -25,6 +25,6 @@ public class GoodsController {
         model.addAttribute("id",id);
         model.addAttribute("userAgent",userAgeent);
         model.addAttribute("path",path);
-        return "getGoodById";
+        return "goodById";
     }
 }
